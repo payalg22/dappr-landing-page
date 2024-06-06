@@ -45,6 +45,12 @@ img[alt="chat-icon"] {
     width: 50px; 
 }
 
+.social button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
 .nav-bar {    
     background-color: #6F6AF7;
     color: white;
@@ -105,6 +111,9 @@ img[alt="chat-icon"] {
 
 .hamburger-menu {
     font-size: 1.5em;
+    background: transparent;
+    color: white;
+    border: 0;
 }
 
 main {
@@ -213,19 +222,21 @@ img[alt="computer-screen"] {
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
     gap: 20px;
 }
 
-.tabs > * {
+.tabs-option {
     padding: 30px;
     text-align: center;
     border-radius: 22px;
     border: 5px solid #FFFFFF;
     color: white;
-    width: 75%;
+    width: 90%;
     margin: 0;
+    font-size: 1em;
+    background: transparent;
 }
 
 .tab-selected {
